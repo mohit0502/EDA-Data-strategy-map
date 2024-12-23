@@ -28,7 +28,7 @@ This project provides a utility to generate and load graph data into a Neo4j dat
   ],
   "FOLDER_PATH": "input_data_folder_path"
 }
-
+```
    - Replace `your_instance.databases.neo4j.io`, `your_username`, and `your_password` with your Neo4j instance details.
    - Replace `input_data_folder_path` with the path to the folder containing your input data files (CSV or Excel).
 
@@ -36,7 +36,7 @@ This project provides a utility to generate and load graph data into a Neo4j dat
 
    ```bash
    python graph_generator.py <config_file_path>
-   ```
+   
 
    Replace `<config_file_path>` with the path to your `config.json` file.
 
