@@ -1,6 +1,6 @@
 # Graph Data Generator and Loader
 
-This project provides a utility to generate and load graph data into a Neo4j database. It reads data from CSV and Excel files, preprocesses it, and creates nodes and relationships in a Neo4j graph database.
+We have developed a graph database system to automate the creation of summary backgrounds for Comprehensive Economic Development Strategy (CEDS) documents. This system includes a utility for generating and loading graph data into a Neo4j database by extracting information from various sources, including API calls, CSV, and Excel files. The data is preprocessed and structured into nodes and relationships within the Neo4j graph, which can then be integrated into a Retrieval-Augmented Generation (RAG) architecture. This integration enables automated querying and the generation of key economic indicators, significantly streamlining the process of creating and updating CEDS, making them more accessible and actionable for Economic Development Districts (EDDs).
 
 ## Prerequisites
 
